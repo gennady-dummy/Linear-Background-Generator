@@ -1,0 +1,66 @@
+*, 
+::before, 
+::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font: 400 16px/1.5 'Roboto', sans-serif;
+    color: #222;
+
+}
+
+.btn {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    cursor: pointer;
+    background: #eeecec;
+    color: #333;
+    border-radius: 50px;
+    padding: 12px 25px;
+    min-width: 170px;
+    text-align: center;
+    margin-bottom: 1em;
+}
+.btn:hover {
+    background: rgb(15, 59, 206);
+    color: #fff;
+    transition: .2s ease-out;
+}
+img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle
+}
+
+h1, h2, h3, h4 {
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+h2 {
+    margin-bottom: 20px
+}
+.mn-color {
+    text-align: center;
+    height: 100vh;
+    color: #fff;
+}
+.generate {
+    margin-top: 20px
+}
+.title-gradient {
+    margin-top: 30px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.title {
+    margin-top: 30px;
+    font-size: 20px;
+    letter-spacing: 1.5px
+}
